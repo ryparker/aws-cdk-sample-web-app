@@ -15,8 +15,12 @@
     "destroy": "cdk destroy"
   },
   "dependencies": {
-    "@aws-cdk/core": "latest",
-    "aws-cdk": "latest"
+    "@aws-cdk/aws-cloudfront": "^1.132.0",
+    "@aws-cdk/aws-cloudfront-origins": "^1.132.0",
+    "@aws-cdk/aws-s3": "^1.132.0",
+    "@aws-cdk/aws-s3-deployment": "^1.132.0",
+    "@aws-cdk/core": "1.132.0",
+    "aws-cdk": "1.132.0"
   },
   "devDependencies": {
     "rimraf": "^3.0.2",
