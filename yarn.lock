@@ -18,6 +18,14 @@
     jsonschema "^1.4.0"
     semver "^7.3.5"
 
+"@aws-cdk/cloud-assembly-schema@1.132.0":
+  version "1.132.0"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/cloud-assembly-schema/-/cloud-assembly-schema-1.132.0.tgz#3b675a92cf3f0b49aaf20afdc32c76a8c92642cd"
+  integrity sha512-49f8o1015tu3XlHSIuoA7+FmM5fZEHpKH3Svvuu4rDTr9ywwPFA9aVblqMXtTeLg1HBXJVXKy7jhy0mKaZaAdw==
+  dependencies:
+    jsonschema "^1.4.0"
+    semver "^7.3.5"
+
 "@aws-cdk/cloudformation-diff@1.131.0":
   version "1.131.0"
   resolved "https://registry.yarnpkg.com/@aws-cdk/cloudformation-diff/-/cloudformation-diff-1.131.0.tgz#9b569811423263f41a60febabc3e10d066fe9e1d"
@@ -32,13 +40,13 @@
     table "^6.7.2"
 
 "@aws-cdk/core@latest":
-  version "1.131.0"
-  resolved "https://registry.yarnpkg.com/@aws-cdk/core/-/core-1.131.0.tgz#e1cb68ae09adee01012061800498669a69abc7c4"
-  integrity sha512-X48H0yvF1fBeL8Dz6pR8rqCHCB8aI7xXTrYWbHnR9J7xwf4r1Tkotx9PNUqseSjzsm0Z8vTUkxiuwYPI17XtSQ==
+  version "1.132.0"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/core/-/core-1.132.0.tgz#eb84cb9311a2d7a66d1aeabf7da3014cbeb11ef0"
+  integrity sha512-sX+uyPhXBZlorK17tJcjztV2ajzXZepbhjUKLCLwCmIx6vJmQSt13kawMJfS+yrRC6G3JO1WAUwdTYCi1/Lcbw==
   dependencies:
-    "@aws-cdk/cloud-assembly-schema" "1.131.0"
-    "@aws-cdk/cx-api" "1.131.0"
-    "@aws-cdk/region-info" "1.131.0"
+    "@aws-cdk/cloud-assembly-schema" "1.132.0"
+    "@aws-cdk/cx-api" "1.132.0"
+    "@aws-cdk/region-info" "1.132.0"
     "@balena/dockerignore" "^1.0.2"
     constructs "^3.3.69"
     fs-extra "^9.1.0"
@@ -53,10 +61,23 @@
     "@aws-cdk/cloud-assembly-schema" "1.131.0"
     semver "^7.3.5"
 
+"@aws-cdk/cx-api@1.132.0":
+  version "1.132.0"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/cx-api/-/cx-api-1.132.0.tgz#9c7b57912efaffb668617e9dd3fa8e5d076d0d5e"
+  integrity sha512-K2b/r2cgHPf1e7GnuKzPhFRMjniXESBky/gX12+9k+9/pY1zxNgaqwYS764fT64wMcqDwAAKBeX+y5tYP0DbRg==
+  dependencies:
+    "@aws-cdk/cloud-assembly-schema" "1.132.0"
+    semver "^7.3.5"
+
 "@aws-cdk/region-info@1.131.0":
   version "1.131.0"
   resolved "https://registry.yarnpkg.com/@aws-cdk/region-info/-/region-info-1.131.0.tgz#26a8527cc6def0cc92a6a72b7379370a18951170"
   integrity sha512-5reys4utb3fjKD7Zqf8AelAw7+WTxqJpdDd5mzXeTQvRYPVT5nLFl+K8by0vIg9Gh/fss6OIA22/+CErmoQRtA==
+
+"@aws-cdk/region-info@1.132.0":
+  version "1.132.0"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/region-info/-/region-info-1.132.0.tgz#3c5dfa143cd61bf1427327f8d9fcbb3171ada5c8"
+  integrity sha512-B3gwvYWHZZbfn+qaTF0EHE1wOEEfqy2NcTaBYew8DHR/Iif6fbyBJ2FPTCM67+Rupl2j1Eh9F3p4eZf7t/ptGg==
 
 "@balena/dockerignore@^1.0.2":
   version "1.0.2"
