@@ -1,5 +1,5 @@
-import { Stack } from '@aws-cdk/core';
-import { Template } from '@aws-cdk/assertions';
+import { Stack } from 'aws-cdk-lib';
+import { Template } from 'aws-cdk-lib/assertions';
 import createBasicWebAppSampleStack from './basic-web-app-sample';
 
 test('creates one bucket, when stack is synthesized', () => {

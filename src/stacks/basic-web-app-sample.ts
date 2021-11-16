@@ -1,5 +1,5 @@
-import { Construct, RemovalPolicy, CfnOutput } from '@aws-cdk/core';
-import { Bucket } from '@aws-cdk/aws-s3';
+import { RemovalPolicy, CfnOutput } from 'aws-cdk-lib';
+import { Bucket } from 'aws-cdk-lib/aws-s3';
 import {
   Distribution,
   PriceClass,
@@ -9,10 +9,11 @@ import {
   CachePolicy,
   OriginRequestPolicy,
   OriginAccessIdentity
-} from '@aws-cdk/aws-cloudfront';
-import { S3Origin } from '@aws-cdk/aws-cloudfront-origins';
-import { BucketDeployment, Source } from '@aws-cdk/aws-s3-deployment';
-import { PolicyStatement, CanonicalUserPrincipal } from '@aws-cdk/aws-iam';
+} from 'aws-cdk-lib/aws-cloudfront';
+import { S3Origin } from 'aws-cdk-lib/aws-cloudfront-origins';
+import { BucketDeployment, Source } from 'aws-cdk-lib/aws-s3-deployment';
+import { PolicyStatement, CanonicalUserPrincipal } from 'aws-cdk-lib/aws-iam';
+import { Construct } from 'constructs';
 
 
 export default (scope: Construct) => {
